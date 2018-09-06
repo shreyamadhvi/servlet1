@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootswatch: Cerulean</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.css" media="screen">
+
+    </head>
+    <body>
+        <div class="bs-docs-section clearfix">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bs-component">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarColor01">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+
+                        <div class="jumbotron">
+                            <div class="page-header">
+                                <h1 id="navbars"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Navbars</font></font></h1>
+                            </div>
+
+                            <h1 class="display-3">Hello, world!</h1>
+                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <hr class="my-4">
+
+                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <p class="lead">
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+
+                        <div class="bs-docs-section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="page-header">
+                                            <h1 id="forms">Forms</h1>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-10">
+
+                                        <form class="bs-component">
+
+                                            <div class="form-group">
+                                                <label class="col-form-label col-form-label-lg" for="inputLarge">product name</label>
+                                                <input class="form-control form-control-lg" type="text" name="product" placeholder="Enter your product" id="inputLarge" >
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-form-label col-form-label-lg" for="inputLarge">Description</label>
+                                                <input class="form-control form-control-lg" type="text" name="productdescription" placeholder="Description" id="inputLarge">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="control-label">product price</label>
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">&#8377;</span>
+                                                        </div>
+                                                        <input type="text" class="form-control" name="productprice" placeholder="enter your product price" aria-label="Amount (to the nearest dollar)">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text">.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <h3>Select your product type:</h3>
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" id="customRadio1" name="producttype" value="virtual product" class="custom-control-input" >
+                                                    <label class="custom-control-label" for="customRadio1">virtual product</label>
+                                                </div>
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" id="customRadio2" name="producttype" value="simple product" class="custom-control-input" checked>
+                                                    <label class="custom-control-label" for="customRadio2">simple product</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <h3>Select your product size:</h3>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" name="size" value="x" id="customCheck1" checked="">
+                                                    <label class="custom-control-label" for="customCheck1">X</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"name="size" value="xl" id="customCheck2" >
+                                                    <label class="custom-control-label" for="customCheck2">Xl</label>
+                                                </div>
+
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"name="size" value="xl" id="customCheck2" >
+                                                    <label class="custom-control-label" for="customCheck2">XXl</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <select class="custom-select" name="city">
+                                                    <option selected="">Select City</option>
+                                                    <option value="surat">surat</option>
+                                                    <option value="pune">pune</option>
+                                                    <option value="bangluru">bangluru</option>
+                                                </select>
+                                            </div>
+
+                                            <input type="submit" class="btn btn-primary" value="submit" formaction="/shreya1/addProduct" formmethod="post">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+
+            <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+            <script src="https://bootswatch.com/_vendor/popper.js/dist/umd/popper.min.js"></script>
+            <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
